@@ -1,1 +1,1 @@
-# edo-chat
+#edoCHat
