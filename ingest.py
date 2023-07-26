@@ -45,14 +45,13 @@ class DocumentProcessor:
 def run():
     secrets = Secrets(
         SUPABASE_URL=st.secrets["SUPABASE_URL"],
-        SUPABASE_SERVICE_KEY=st.secrets["SUPABASE_KEY"],
+        SUPABASE_SERVICE_KEY=st.secrets["SUPABASE_SERVICE_KEY"],
         OPENAI_API_KEY=st.secrets["OPENAI_API_KEY"],
     )
     config = Config()
     doc_processor = DocumentProcessor(secrets, config)
     result = doc_processor.process()
     return result
-
 
 
 if __name__ == "__main__":
