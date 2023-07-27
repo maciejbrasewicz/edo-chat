@@ -4,7 +4,8 @@ Interact with your Snowflake database using natural language queries
 
 User-friendly application that enables users to interact with their Snowflake DataBase using natural language queries.
 
-screenshot
+![image](https://github.com/maciejbrasewicz/edo-chat/assets/49028274/581b9fdc-a94c-4ec8-a019-d7313b60158a)
+
 
 ## Here is the link to the [EdoChat](https://edo-chatgit-lqmmwz4upu.streamlit.app/)
 
@@ -20,7 +21,8 @@ Let's take a look at the tech stack on which the chat is built:
 
 Here's a glance at snowChat's architecture:
 
-screenshot
+![image](https://github.com/maciejbrasewicz/edo-chat/assets/49028274/b2b41e69-2d47-4e20-9ba4-f4a373f6a9e6)
+
 
 ## 🌟 Features
 
@@ -39,7 +41,7 @@ To start, follow these steps:
 
 2. Install the required packages:
 ```
-   cd snowchat
+   cd edo-chat
    pip install -r requirements.txt
 ```
 3. Get the Data Definition Language (DDL) for all tables from `snowflake.account_usage.tables`.
@@ -73,7 +75,7 @@ ROLE = "your snowflake role"
 
 The 'documents' table in Supabase should look like this:
 
-screenshot
+![image](https://github.com/maciejbrasewicz/edo-chat/assets/49028274/4cddc601-55f2-4c6b-b755-ce1138921b6b)
 
 
 9. Run the Streamlit app to start chatting:
