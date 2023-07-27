@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 chat_history = []
 snow_ddl = Snowddl()
 
-st.title("EdoChat")
+st.title("DataedoChat")
 st.caption("Talk your way through data")
 model = st.radio(
     "",
